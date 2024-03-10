@@ -1,11 +1,19 @@
  //Question 1: Install Node.js, TypeScript and VS Code on your computer/Laptop.
  //===> all stuff is already downloaded
  
+
+
+
  
  //Question 2: Personal Message: Store a person’s name in a variable and print a message to them, like “Hello Asharib, would you like to learn some TypeScript today?”
 
 let hamza:string = "hamza";
 console.log(`Hello ${hamza}, would you like to learn some TypeScript today`)
+
+
+
+
+
 
 
  //Question 3: Name Cases: Store a person’s name in a variable, and then print that person’s name in lowercase, uppercase, and titlecase.
@@ -25,3 +33,34 @@ let titleCase = firstLetter + restLetters;
 
 console.log(titleCase);
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+/////////// =======>  TEST  <===============
+
+
+
+
+
+
+// const nana = "ahmed"
+
+// console.log(nana.toUpperCase());
+
+// console.log(nana.toLowerCase());
+
+
+// let firstLetter = nana.charAt(0).toUpperCase();
+// let restLetters =nana.slice(1).toLowerCase();
+// let titleCase=firstLetter + restLetters;
+// console.log(titleCase);

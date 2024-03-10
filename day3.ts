@@ -29,5 +29,31 @@ console.log(`My favourite number is ${fav_num}`);
 
 
 
+/// ==========>TEST<================
+
+
+
+const jama = 4+4;
+const minus = 8-4;
+const bhata = 2*2;
+const tqsm = 128/16;
+console.log(jama,minus,bhata,tqsm);
+
+
+console.log(5+5);
+
+
+let pyrNum = 5;
+console.log(`mera man pasand naam is ${pyrNum}`);
+
+
+
+
+
+
+
+
+
+
 
 

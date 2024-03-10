@@ -19,18 +19,6 @@ var famous_person = "Aristotle";
 var quote = "“Education is bitter, but its fruit is sweet.”"
 //printin quote here
 console.log(`${famous_person} once said, ${quote}`);
- 
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -45,6 +33,8 @@ let friends : string[] = ["Hamza Ahmed","Hamzah Syed","Asharib Ali"];
 friends.forEach(Element =>
     {console.log(Element)}
     ) 
+
+
 
 
 /*

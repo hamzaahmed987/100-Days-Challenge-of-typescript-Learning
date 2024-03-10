@@ -3,7 +3,7 @@
  "Albert Einstein once said, “A person who never made a mistake never tried anything new.”"
 */
 
-var myQuote:string = "Muhammad Ali once said, \"I hated every minute of training, but I said, 'Don't quit. Suffer now and live the rest of your life as a champion.\"";
+var myQuote:string = "Muhammad Ali once said, \"I hated every minute of training, but I said, 'Don't quit. Suffer now and live the rest of your life as a champion.";
 console.log(myQuote);
 
 /*
@@ -30,3 +30,43 @@ console.log(mysecondName);
 const my_Name:string = "\nHamza";
 console.log(my_Name);
  //console.log(my_Name.trim());
+
+
+
+
+
+
+
+//// =========> TEST   <===============
+
+
+
+let myWords = `one pashtoon once said, "jar laka da maar"`;
+console.log(myWords);
+
+let arthor = "lola";
+let poet = " warka dank o kena pa badra*g";
+console.log(`${arthor} once said, ${poet}`);
+
+
+let spaces = "       sapacee       ";
+console.log(spaces);
+
+const meraNaam = "\thamzaaa"
+console.log(meraNaam);
+
+const endName = "\nAhmed";
+console.log(endName);
+
+
+
+
+
+
+
+
+
+
+
+
+
