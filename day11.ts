@@ -12,8 +12,8 @@ if (usernames.length===0){
 /*
 Question 32: Checking Usernames: Ensure uniqueness in usernames.
 */
-let old_users:string[] = ["user2","admin","user1","user3","user4"];
-let new_users:string[] = ["user5","user6","user7","admin"];
+let old_users:string[] = ["hamza","ahmed","ameen","asharib","hamzah"];
+let new_users:string[] = ["danial","ali","qasim","hunain"];
 
 new_users.forEach(new_users =>{
     if(old_users.some(old_users => old_users.toLocaleLowerCase()===new_users.toLowerCase())) {

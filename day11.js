@@ -11,8 +11,8 @@ else {
 /*
 Question 32: Checking Usernames: Ensure uniqueness in usernames.
 */
-var old_users = ["user2", "admin", "user1", "user3", "user4"];
-var new_users = ["user5", "user6", "user7", "admin"];
+var old_users = ["hamza", "ahmed", "ameen", "asharib", "hamzah"];
+var new_users = ["danial", "ali", "qasim", "hunain"];
 new_users.forEach(function (new_users) {
     if (old_users.some(function (old_users) { return old_users.toLocaleLowerCase() === new_users.toLowerCase(); })) {
         console.log("".concat(new_users, " will need a new username."));
