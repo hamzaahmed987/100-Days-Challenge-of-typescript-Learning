@@ -10,7 +10,7 @@ const traditionalFunction = function (a:number, b:number)  {
   const arrowFunction = (a:number, b:number) => a + b;
   
   console.log(traditionalFunction(5, 3)); // Outputs: 8
-  console.log(arrowFunction(5, 3)); // Outputs: 8
+  console.log(arrowFunction(5, 88)); // Outputs: 8
  
 
 
@@ -24,7 +24,7 @@ Question 128: Create an arrow function that takes multiple parameters and return
 const multiplyParameters = (...numbers: number[]) =>
     numbers.reduce((total, number) => total * number, 1);
   
-  console.log(multiplyParameters(2, 3, 4)); // Outputs: 24
+  console.log(multiplyParameters(6, 5, 10)); // Outputs: 24
 
 
 
@@ -38,15 +38,18 @@ Question 129: Explain how this behaves differently in arrow functions compared t
 
 const traditionalVsArrow = {
     value: "traditionalVsArrow value",
+
     traditionalFunction: function () {
-      console.log("Traditional function:", this.value); 
+      console.log("Traditional function:", this.value);
     },
     arrowFunction: () => {
-      console.log("Arrow function:", this.value); 
+      console.log("Arrow function:", traditionalVsArrow.value);
     },
   };
   
   traditionalVsArrow.traditionalFunction();
-  traditionalVsArrow.arrowFunction(); 
+  traditionalVsArrow.arrowFunction();
+  
+
 
 

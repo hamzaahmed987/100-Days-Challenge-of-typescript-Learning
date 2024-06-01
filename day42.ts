@@ -32,18 +32,17 @@ const rectangle0 = {
 /*
 Question 126: Explain how the this keyword changes its value when used inside a nested function within a method.
 */
-const myObject = {
-    property: "Value",
-    outerMethod: function () {
-      console.log(this.property); 
-  
-      const innerMethod = () => {
-        console.log(this.property); 
+
+class MyClass {
+  prop1 = "outer property";
+
+  outerMethod() {
+      const nestedFunction = () => {
+          console.log(this.prop1); // Accesses "outer property"
       };
-  
-      innerMethod();
-    },
-  };
-  
-  myObject.outerMethod();
- 
+      nestedFunction();
+  }
+}
+
+const myObject = new MyClass();
+myObject.outerMethod(); // Output: "outer property"
