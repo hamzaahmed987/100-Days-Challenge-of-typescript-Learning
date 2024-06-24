@@ -1,12 +1,13 @@
+"use strict";
 /*
 Question 19: Dinner Guests: Use one of your programs from Exercises 14 through 18 to print a message indicating the number of people you are inviting to dinner.
 */
-var mehmaan = ["Qasim", "Ahmed", "Shahod Anwar", "Elon Musk"];
-console.log("I'm inviting ".concat(mehmaan.length, " people to dinner"));
+let mehmaan = ["Qasim", "Ahmed", "Shahod Anwar", "Elon Musk"];
+console.log(`I'm inviting ${mehmaan.length} people to dinner`);
 /*
 Question 20: Think of something you could store in an array. For example, you could make a list of mountains, rivers, countries, cities, languages, or anything else you’d like. Write a program that creates a list containing these items.
 */
-var favCountries = ["Afghanistan", "Palestine", "Iraq", "Yamen"];
+let favCountries = ["Afghanistan", "Palestine", "Iraq", "Yamen"];
 console.log("These are m favourite countris", favCountries);
 /*
 Question 21: Think of something you could store in a TypeScript Object. Write a program that creates Objects containing these items.

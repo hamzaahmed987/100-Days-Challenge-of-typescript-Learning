@@ -1,14 +1,21 @@
 /*
 Question 124: Create a function inside an object that returns the object's own name property using the this keyword.
 */
-const person = {
-    name: "Alice",
-    getName: function () {
-      return this.name; // Uses 'this' to refer to the object itself and return its 'name' property
-    },
-  };
+// const person = {
+//     name: "Alice",
+//     getName: function () {
+//       return this.name; // Uses 'this' to refer to the object itself and return its 'name' property
+//     },
+//   };
   
-  console.log(person.getName()); 
+//   console.log(person.getName()); 
+
+
+
+
+
+
+
 
 
 
@@ -16,15 +23,15 @@ const person = {
 Question 125: Modify a method in an object to use the this keyword to access another property in the same object.
 */
 
-const rectangle0 = {
-    length: 12,
-    width: 16,
-    calculateArea: function () {
-      return this.length * this.width; 
-    },
-  };
+// const rectangle0 = {
+//     length: 12,
+//     width: 16,
+//     calculateArea: function () {
+//       return this.length * this.width; 
+//     },
+//   };
   
-  console.log(rectangle0.calculateArea()); // 20
+//   console.log(rectangle0.calculateArea()); // 192
 
 
 

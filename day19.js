@@ -1,3 +1,4 @@
+"use strict";
 // /*
 // Question 55: Double Numbers in an Array: Make a list of numbers. Then, use a trick to make a new list where each number is twice its original value.
 // */
@@ -13,6 +14,6 @@
 /*
 Question 57: Find the Average Grade: Given a list of grades, calculate the average grade.
 */
-var grades = [90, 110, 80, 120, 100];
-var averageGrade = grades.reduce(function (total, grade) { return total + grade; }, 0) / grades.length;
+let grades = [90, 110, 80, 120, 100];
+let averageGrade = grades.reduce((total, grade) => total + grade, 0) / grades.length;
 console.log(averageGrade);

@@ -1,13 +1,13 @@
 // /*
 // Question 112: Create a Map that stores the names of countries as keys and their capitals as values. Add three countries to the Map.
 // */
-// const countries = new Map<string, string>();
-// countries.set("Pakistan", "Washington, D.C.");
-// countries.set("USA", "Washington, D.C.");
-// countries.set("France", "Paris"); 
-// countries.set("Japan", "Tokyo"); 
+const countries = new Map<string, string>();
+countries.set("Pakistan", "Washington, D.C.");
+countries.set("USA", "Washington, D.C.");
+countries.set("France", "Paris"); 
+countries.set("Japan", "Tokyo"); 
 
-// console.log(countries);
+console.log(countries);
 
 
 
@@ -15,15 +15,15 @@
 // Question 113: Write a function that checks if a Map contains a key for "Canada" and logs the capital if it exists.
 // */
 
-// function capitalOfCanada(countries: Map<string, string>): void {
-//   if (countries.has("Canada")) {
-//     console.log(`The capital of Canada is ${countries.get("Canada")}`);
-//   } else {
-//     console.log("Canada is not in the Map.");
-//   }
-// }
+function capitalOfCanada(countries: Map<string, string>): void {
+  if (countries.has("Canada")) {
+    console.log(`The capital of Canada is ${countries.get("Canada")}`);
+  } else {
+    console.log("Canada is not in the Map.");
+  }
+}
 
-// capitalOfCanada(countries);
+capitalOfCanada(countries);
 
 
 

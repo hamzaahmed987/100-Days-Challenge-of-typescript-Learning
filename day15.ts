@@ -2,26 +2,26 @@
 
 
 
-// /*
-// Question 43: Unchanged Magicians: Preserve the original magician names while creating a new "great" list.
-// */
-// const magicians3: string[] = ["Hamza", "Ahmed", "Shayan"];
+/*
+Question 43: Unchanged Magicians: Preserve the original magician names while creating a new "great" list.
+*/
+const magicians3: string[] = ["Hamza", "Ahmed", "Shayan"];
 
-// function makeGreat2(magicians: string[]): string[] {
-//   const greatMagicians: string[] = [];
-//   for (let i = 0; i < magicians.length; i++) {
-//     greatMagicians.push(magicians[i] + " the Great");
-//   }
-//   return greatMagicians;
-// }
-// function showMagicians(magicians: string[]) {
-//   for (const magician of magicians) {
-//     console.log(magician);
-//   }
-// }
-// const greatMagicians2: string[] = makeGreat2(magicians3);
-// showMagicians(magicians3);  
-// showMagicians(greatMagicians2);
+function makeGreat2(magicians: string[]): string[] {
+  const greatMagicians: string[] = [];
+  for (let i = 0; i < magicians.length; i++) {
+    greatMagicians.push(magicians[i] + " the Great");
+  }
+  return greatMagicians;
+}
+function showMagicians(magicians: string[]) {
+  for (const magician of magicians) {
+    console.log(magician);
+  }
+}
+const greatMagicians2: string[] = makeGreat2(magicians3);
+showMagicians(magicians3);  
+showMagicians(greatMagicians2);
 
 
 

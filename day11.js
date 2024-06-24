@@ -1,7 +1,8 @@
+"use strict";
 /*
 Question 31: No Users: Ensure your user list isn’t empty.
 */
-var usernames = [];
+let usernames = [];
 if (usernames.length === 0) {
     console.log("They neeed users");
 }
@@ -11,14 +12,14 @@ else {
 /*
 Question 32: Checking Usernames: Ensure uniqueness in usernames.
 */
-var old_users = ["hamza", "ahmed", "ameen", "asharib", "hamzah"];
-var new_users = ["danial", "ali", "qasim", "hunain"];
-new_users.forEach(function (new_users) {
-    if (old_users.some(function (old_users) { return old_users.toLocaleLowerCase() === new_users.toLowerCase(); })) {
-        console.log("".concat(new_users, " will need a new username."));
+let old_users = ["hamza", "ahmed", "ameen", "asharib", "hamzah"];
+let new_users = ["danial", "ali", "qasim", "hunain"];
+new_users.forEach(new_users => {
+    if (old_users.some(old_users => old_users.toLocaleLowerCase() === new_users.toLowerCase())) {
+        console.log(`${new_users} will need a new username.`);
     }
     else {
-        console.log("".concat(new_users, " is availble"));
+        console.log(`${new_users} is availble`);
     }
 });
 /*

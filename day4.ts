@@ -30,9 +30,13 @@ Question 11: Names: Store the names of a few of your friends in an array called 
 
 //array
 let friends : string[] = ["Hamza Ahmed","Hamzah Syed","Asharib Ali"];
-friends.forEach(Element =>
-    {console.log(Element)}
-    ) 
+// friends.forEach(Element =>
+//     {console.log(Element)}
+//     ) 
+for(let i = 0; i < 3 ; i++){
+    console.log("friday")
+}
+
 
 
 

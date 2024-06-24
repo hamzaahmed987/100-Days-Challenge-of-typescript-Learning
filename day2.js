@@ -1,3 +1,4 @@
+"use strict";
 /*
   Question 1: Famous Quote: Find a quote from a famous person you admire. Print the quote and the name of its author. Your output should look something like the following, including the quotation marks:
  "Albert Einstein once said, “A person who never made a mistake never tried anything new.”"
@@ -14,23 +15,24 @@ console.log("".concat(famous_person, " once said ").concat(quote));
 Question 3: Stripping Names: Store a person’s name, and include some whitespace characters at the beginning and end of the name. Use "\t" (tab) and "\n" (new line) at least once. Print the name once, so the whitespace around the name is displayed. Then print the name after stripping the white spaces.
 */
 //  whitespace at beginning and in end
-var myName = "   Hamza   ";
+const myName = "   Hamza   ";
 console.log(myName);
 // \t
-var mysecondName = "\tAhmed";
+const mysecondName = "\tAhmed";
 console.log(mysecondName);
 //  \n
-var my_Name = "\nHamza";
+const my_Name = "\nHamza";
 console.log(my_Name);
 //console.log(my_Name.trim());
-var myWords = "one pashtoon once said, \"jar laka da maar\"";
+//// =========> TEST   <===============
+let myWords = `one pashtoon once said, "jar laka da maar"`;
 console.log(myWords);
-var arthor = "lola";
-var poet = " warka dank o kena pa badra*g";
-console.log("".concat(arthor, " once said, ").concat(poet));
-var spaces = "       sapacee       ";
+let arthor = "lola";
+let poet = " warka dank o kena pa badra*g";
+console.log(`${arthor} once said, ${poet}`);
+let spaces = "       sapacee       ";
 console.log(spaces);
-var meraNaam = "\thamzaaa";
+const meraNaam = "\thamzaaa";
 console.log(meraNaam);
-var endName = "\nAhmed";
+const endName = "\nAhmed";
 console.log(endName);

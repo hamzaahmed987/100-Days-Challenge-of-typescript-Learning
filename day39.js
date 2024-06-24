@@ -2,7 +2,6 @@
 /*
 Question 115: Use a switch statement to log the days of the week based on a number (1-7).
 */
-// This function logs the day of the week based on a number (1-7)
 function logDayOfWeek(dayNumber) {
     switch (dayNumber) {
         case 1:
@@ -31,11 +30,10 @@ function logDayOfWeek(dayNumber) {
             break;
     }
 }
-logDayOfWeek(3); // Outputs: Tuesday
+logDayOfWeek(3); //Tuesday
 /*
 Question 116: Create a switch case that matches several cases to the same code block, representing seasons.
 */
-// This function logs the season based on the month
 function logSeason(month) {
     switch (month) {
         case 12:
@@ -63,11 +61,10 @@ function logSeason(month) {
             break;
     }
 }
-logSeason(4); // Outputs: Spring
+logSeason(4); //spring
 /*
 Question 117: Implement a switch statement that evaluates an expression and uses the default case if none of the cases match.
 */
-// This function evaluates a grade and logs the corresponding remark
 function evaluateGrade(grade) {
     switch (grade) {
         case "A":
@@ -90,4 +87,4 @@ function evaluateGrade(grade) {
             break;
     }
 }
-evaluateGrade("B"); // Outputs: Good
+evaluateGrade("B"); //Good

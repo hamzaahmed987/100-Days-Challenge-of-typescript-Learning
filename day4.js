@@ -21,7 +21,12 @@ Question 11: Names: Store the names of a few of your friends in an array called 
 */
 //array
 let friends = ["Hamza Ahmed", "Hamzah Syed", "Asharib Ali"];
-friends.forEach(Element => { console.log(Element); });
+// friends.forEach(Element =>
+//     {console.log(Element)}
+//     ) 
+for (let i = 0; i < 3; i++) {
+    console.log("friday");
+}
 /*
 Question 12: Greetings: Use the array from Exercise 11. Instead of just printing each person’s name, print a message to them. The message should be the same for each person, but personalized with their name.
 */

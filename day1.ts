@@ -33,6 +33,9 @@ let titleCase = firstLetter + restLetters;
 
 console.log(titleCase);
 
+// ksi bi specific index ko target karta hai 
+// index target karty hain us  sy agy waly ko print karta hai 
+
 
 
 

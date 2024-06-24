@@ -1,3 +1,4 @@
+"use strict";
 // /*
 // Question 49: Function with Rest Parameters: Write a function that takes a rest parameter representing multiple hobbies. It should log each hobby with a statement saying you enjoy that hobby.
 // */
@@ -11,7 +12,10 @@
 Question 50: Multiline Template Literals: Use template literals to create a multiline string that describes your ideal day. Include at least three different activities.
 */
 function describeIdealDay() {
-    return "My ideal day :\n    Rise with the sun, meditate, and enjoy a healthy breakfast.\n    Adventure awaits! Explore nature with a hike or tackle a creative project.\n    Wind down with loved ones, savor a delicious meal, and reflect on a fulfilling day.";
+    return `My ideal day :
+    Rise with the sun, meditate, and enjoy a healthy breakfast.
+    Adventure awaits! Explore nature with a hike or tackle a creative project.
+    Wind down with loved ones, savor a delicious meal, and reflect on a fulfilling day.`;
 }
 console.log(describeIdealDay());
 // /*

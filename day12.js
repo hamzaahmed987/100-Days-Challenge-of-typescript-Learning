@@ -1,3 +1,4 @@
+"use strict";
 // /*
 // Question 34: Pizzas: Share your favorite pizzas and express your love for them.
 // */
@@ -17,7 +18,7 @@
 /*
 Question 36: T-Shirt: Create a function for customizing t-shirts.
 */
-var tshirt = function (size, color, message) {
-    console.log("Your T-shirt size is ".concat(size, ", color is ").concat(color, " and message printed is ").concat(message));
+let tshirt = function (size, color, message) {
+    console.log(`Your T-shirt size is ${size}, color is ${color} and message printed is ${message}`);
 };
 tshirt("medium", "black", "First, solve the problem.");
