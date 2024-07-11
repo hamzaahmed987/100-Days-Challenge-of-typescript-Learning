@@ -1,13 +1,15 @@
 ## Setup
 
+## **Grab the Tools:**
+
 1. **Install Git:**
-    - Download Git from the official website: [Git Downloads](https://git-scm.com/downloads).
-    - Follow the installation instructions for your specific operating system.
+    - Head to the official website: [Git Downloads](https://git-scm.com/downloads).
+    - Download the installer for your operating system. Follow the instructions to get it set up..
 2. **Install Visual Studio Code (VSCode):**
-    - Download Visual Studio Code from the official website: [VSCode Downloads](https://code.visualstudio.com/download).
+    - Download the editor from the official website: [VSCode Downloads](https://code.visualstudio.com/download).
     - Follow the installation instructions for your specific operating system.
 3. **Install Node.js:**
-    - Download Node.js from the official website: [Node.js Downloads](https://nodejs.org/).
+    - Swing by the official download page: [Node.js Downloads](https://nodejs.org/).
     - Choose the LTS (Long-Term Support) version for stability or the Current version for the latest features.
     - Follow the installation instructions for your specific operating system.
 4. **Verify Node.js Installation (Optional):**
@@ -43,8 +45,8 @@
 
 ## **Create Your First Application**
 
-1. Create a new folder on your desktop, for example, named "typescript."
-2. Inside the "typescript" folder, create a new file called `index.ts` and open it in Visual Studio Code (VS Code).
+1. Create a Project Folder: Make a new folder on your desktop, like "typescript-project".
+2. Inside the folder, create a file named index.ts and open it in VS Code.
 3. Write the following code in `index.ts`:
 
 ```tsx
