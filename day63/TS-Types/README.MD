@@ -14,11 +14,11 @@ In TypeScript, type annotations are used to explicitly specify the type of a var
 You can explicitly annotate variable types in the following way:
 
 ```tsx
-let myNumberExOne: number = 42;
-let myStringExOne: string = "Hello, TypeScript";
+let myNumberOne: number = 42;
+let myStringOne: string = "Hello, TypeScript";
 
-console.log("My Number Is:", myNumberExOne);
-console.log("My String Is:", myStringExOne);
+console.log("My Number Is:", myNumberOne);
+console.log("My String Is:", myStringOne);
 ```
 
 In this example, `myNumber` is explicitly annotated with the type `number`, and `myString` is annotated with the type `string`. This makes it clear to both developers and the TypeScript compiler what types these variables should hold. This can help catch potential type-related issues during development.
@@ -26,14 +26,14 @@ In this example, `myNumber` is explicitly annotated with the type `number`, and 
 Another way to write this code is as follows:
 
 ```tsx
-let myNumberExTwo: number;
-let myStringExTwo: string;
+let myNumberTwo: number;
+let myStringTwo: string;
 
-myNumberExTwo = 42;
-myStringExTwo = "Hello, TypeScript";
+myNumberTwo = 42;
+myStringTwo = "Hello, TypeScript";
 
-console.log("My Number Is:", myNumberExTwo);
-console.log("My String Is:", myStringExTwo);
+console.log("My Number Is:", myNumberTwo);
+console.log("My String Is:", myStringTwo);
 ```
 
 In this alternative approach, you first declare the variables and then assign values to them later. TypeScript still understands the types based on the initial declarations, providing the same level of type safety and code clarity.
@@ -47,8 +47,8 @@ By using type annotations, you ensure that your code is more robust, maintainabl
 If you choose not to use type annotations in TypeScript, the language can still infer the type dynamically based on your declaration. For instance:
 
 ```tsx
-let greeting = "Hello, world!";
-console.log(greeting);
+let hello = "Hello, Hamza!";
+console.log(hello);
 ```
 
 In this example, TypeScript will automatically infer the type of the variable `greeting` as a string. However, while TypeScript can infer types, it's generally not recommended to rely solely on dynamic type inference, as it may lead to unintended issues and reduced code clarity. Explicitly defining types through type annotations is a best practice for writing maintainable and error-free TypeScript code.
@@ -62,9 +62,9 @@ Now, regarding the `any` type, it's a special type in TypeScript that can repres
 Here's an example of using the `any` type:
 
 ```tsx
-let myVariable: any = 42;
-myVariable = "Hello, TypeScript";
-console.log(myVariable)
+let myAny: any = 42;
+myAnye = "Hello, Hamza";
+console.log(myAny)
 ```
 
 In this case, `myVariable` can be assigned a number or a string or any other type without any type checking.
