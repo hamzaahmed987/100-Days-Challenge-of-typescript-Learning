@@ -1,5 +1,5 @@
 
- //===========> * TYPE ALIAS * <=============\\
+ //===========> * TYPE ALIAS * <=============\\n ,
 
 type MyString = string;
 
