@@ -1,4 +1,3 @@
-"use strict";
 // /*
 // Question 139: List three reserved words in JavaScript and create a valid use case for each.
 // */
@@ -6,7 +5,6 @@
 // if (count > 0) {
 //   console.log("Count is greater than 0.");
 // }
-Object.defineProperty(exports, "__esModule", { value: true });
 // function add(a:any, b:any) {
 //   return a + b;
 // }
@@ -31,4 +29,5 @@ console.log("The 'await' keyword allows asynchronous, promise-based behavior to 
 function fetchSomething() {
     throw new Error("Function not implemented.");
 }
+export {};
 // This demonstrates how 'await' improves readability and flow in asynchronous code.

@@ -1,8 +1,6 @@
-"use strict";
 // /*
 // Question 61: Making Enums for Vehicles: Let's create categories for vehicles like cars, trucks, and motorcycles using enums, and show one example.
 // */
-Object.defineProperty(exports, "__esModule", { value: true });
 let circle = {
     kind: "circle",
     radius: 5
@@ -14,3 +12,4 @@ let rectangle = {
 };
 console.log(circle);
 console.log(rectangle);
+export {};

@@ -1,8 +1,6 @@
-"use strict";
 /*
 Question 31: No Users: Ensure your user list isn’t empty.
 */
-Object.defineProperty(exports, "__esModule", { value: true });
 let usernames = [];
 if (usernames.length === 0) {
     console.log("They neeed users");
@@ -23,6 +21,7 @@ new_users.forEach(new_users => {
         console.log(`${new_users} is availble`);
     }
 });
+export {};
 /*
 Question 33: Ordinal Numbers: Display numbers with their ordinal suffixes.
 */

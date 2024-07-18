@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 /*
 Question 85: Finding the Position of a Substring: Write a function that locates the first occurrence of the word "code" within any given string and returns its position.
 */
@@ -16,6 +14,7 @@ function hasJavaScript(str) {
 console.log(hasJavaScript("I love coding in JavaScript!")); // Outputs true or false based on the check
 // It simply says true if "JavaScript" is there, or false if it's not.
 console.log(hasJavaScript("I love coding in TypeScript!"));
+export {};
 // It simply says false if "typeScript" is there,
 // /*
 // Question 87: Extracting a Substring: Demonstrate how to extract the first 10 characters from a string.

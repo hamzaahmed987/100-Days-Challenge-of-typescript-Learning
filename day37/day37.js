@@ -1,4 +1,3 @@
-"use strict";
 // /*
 // Question 109: Write an if statement that logs "Good Morning" if the current time is before 12 PM.
 // */
@@ -7,7 +6,6 @@
 // if (currentTime.getHours() < 12) {
 //   console.log("Good Morning");
 // }
-Object.defineProperty(exports, "__esModule", { value: true });
 // /*
 // Question 110: Create a function that assigns a grade (A, B, C, D, F) based on a student's score.
 // */
@@ -44,3 +42,4 @@ function categorizeAge(age) {
 console.log(categorizeAge(12));
 console.log(categorizeAge(18));
 console.log(categorizeAge(25));
+export {};

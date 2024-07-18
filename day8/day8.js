@@ -1,8 +1,7 @@
-"use strict";
 // /*
 // Question 22: Intentional Error: Try to produce an array index error in one of your programs. Correct the error before finishing.
 // */
-Object.defineProperty(exports, "__esModule", { value: true });
+export {};
 // let myFriends:string[] =["peer","Ahmed","shayan"];
 // myFriends[7]; // index 7 is out of bond
 // console.log(myFriends[2]); //correcting the error

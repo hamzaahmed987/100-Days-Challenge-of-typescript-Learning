@@ -1,4 +1,3 @@
-"use strict";
 // /*
 // Question 142: Create a Promise that resolves with "Hello, World!" after 2 seconds.
 // */
@@ -7,7 +6,7 @@
 //       resolve("Message is printed in 2 seconds");
 //     }, 2000);
 //   });
-Object.defineProperty(exports, "__esModule", { value: true });
+export {};
 //   helloPromise.then((message) => console.log(message));
 // /*
 // Question 143: Show how to use the .then() and .catch() methods to handle Promise resolution and rejection.

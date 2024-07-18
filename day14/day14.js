@@ -1,8 +1,6 @@
-"use strict";
 /*
 Question 40: Album: Create objects for music albums.
 */
-Object.defineProperty(exports, "__esModule", { value: true });
 function createAlbum(artist, title, numTracks) {
     return {
         artist,
@@ -37,3 +35,4 @@ function make_great(magicians) {
 }
 make_great(magician); // Modifies the original array
 show_magicians(magician); // Shows modified names
+export {};

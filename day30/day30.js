@@ -1,11 +1,9 @@
-"use strict";
 // /*
 // Question 88: Rounding to the Nearest Integer: Write a function that takes a decimal number as input and returns the number rounded to the nearest integer.
 // */
 // function roundToNearestInteger(num: number): number {
 //     return Math.round(num); // Rounds the number
 // }
-Object.defineProperty(exports, "__esModule", { value: true });
 // console.log(roundToNearestInteger(8.7)); // Outputs: 1
 // console.log(roundToNearestInteger(0.9)); // Outputs: 1
 // /*
@@ -24,3 +22,4 @@ function isNaN(value) {
 }
 console.log(isNaN("Salaam"));
 console.log(isNaN(123));
+export {};

@@ -1,11 +1,9 @@
-"use strict";
 /*
 Question 37: Large Shirts: Default values in make_shirt().
 */
 // let makeShirt = (size: string = "large", message: string = "Experience is the name everyone gives to their mistakes.") => {
 //     console.log(`Making a ${size} t-shirt with the message "${message}" printed on it.`);
 // }
-Object.defineProperty(exports, "__esModule", { value: true });
 // makeShirt();  
 /*
 Question 38: Cities: Describing cities with a function.
@@ -61,3 +59,4 @@ function city_country(city, country) {
 console.log(city_country("Lahore", "Pakistan"));
 console.log(city_country("Tokyo", "Japan"));
 console.log(city_country("Paris", "France"));
+export {};

@@ -1,8 +1,6 @@
-"use strict";
 // /*
 // Question 148: Demonstrate the use of the setTimeout() function to execute code after a delay.
 // */
-Object.defineProperty(exports, "__esModule", { value: true });
 // // Uses setTimeout to log a message after a 2-second delay
 // setTimeout(() => {
 //     console.log("This message is printed after a 2-second delay.");
@@ -20,11 +18,15 @@ Object.defineProperty(exports, "__esModule", { value: true });
 /*
 Question 150: Describe how asynchronous callbacks differ from synchronous code execution.
 */
+// Sync
 console.log("Before synchronous operation");
+// Simulate a synchronous blocking operation
 for (let i = 0; i < 1e9; i++) { } // A long loop
 console.log("After synchronous operation");
+// Async
 console.log("Before asynchronous operation");
 setTimeout(() => {
     console.log("Asynchronous operation completed");
 }, 1000);
 console.log("After asynchronous operation setup");
+export {};

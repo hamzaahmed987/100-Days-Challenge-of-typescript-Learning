@@ -1,9 +1,7 @@
-"use strict";
 // /*
 // Question 25: Alien Colors #1: Imagine an alien was just shot down in a game. Assign 'green', 'yellow', or 'red' to a variable called alien_color.
 // */
 // let alien_color: "green" | "yellow" | "red";
-Object.defineProperty(exports, "__esModule", { value: true });
 // // Assign a random color (optional)
 // alien_color = Math.random() > 0.5 ? "green" : "yellow"; // Chooses green or yellow
 // alien_color = "green"; // Direct assignment
@@ -36,3 +34,4 @@ else if (alianColor === "blue") {
 else {
     console.log("you earned 15 points");
 }
+export {};

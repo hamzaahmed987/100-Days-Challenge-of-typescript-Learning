@@ -1,8 +1,6 @@
-"use strict";
 /*
 Question 133: Write a JavaScript object and convert it into a JSON string.
 */
-Object.defineProperty(exports, "__esModule", { value: true });
 // Defines a JavaScript object
 const person = {
     name: "Khamzat",
@@ -33,3 +31,4 @@ const data = {
 };
 const Json = JSON.stringify(data, null, 4);
 console.log(Json);
+export {};

@@ -1,8 +1,6 @@
-"use strict";
 /*
 Question 67: Arithmetic with Mixed Types: Write a function that takes two parameters: a number and a string that represents a number (e.g., "5"). Return their sum as a number.
 */
-Object.defineProperty(exports, "__esModule", { value: true });
 function addNumberAndString(number1, numberString) {
     return number1 + Number(numberString);
 }
@@ -23,3 +21,4 @@ function divideAndRemainder(dividend, divisor) {
     return { quotient, remainder };
 }
 console.log(divideAndRemainder(10, 3));
+export {};

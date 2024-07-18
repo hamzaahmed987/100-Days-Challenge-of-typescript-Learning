@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 /*
 Question 1: Number Eight: Write addition, subtraction, multiplication, and division operations that each result in the number 8. Enclose your operations in print statements.
 */
@@ -31,3 +29,4 @@ console.log(jama, minus, bhata, tqsm);
 console.log(5 + 5);
 let pyrNum = 5;
 console.log(`mera man pasand naam is ${pyrNum}`);
+export {};

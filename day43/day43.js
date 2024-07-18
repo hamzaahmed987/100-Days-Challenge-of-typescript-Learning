@@ -1,8 +1,6 @@
-"use strict";
 // /*
 // Question 127: Convert a traditional function expression to an arrow function.
 // */
-Object.defineProperty(exports, "__esModule", { value: true });
 // // Traditional function expression
 // const traditionalFunction = function (a:number, b:number)  {
 //     return a + b;
@@ -31,3 +29,4 @@ const traditionalVsArrow = {
 };
 traditionalVsArrow.traditionalFunction();
 traditionalVsArrow.arrowFunction();
+export {};

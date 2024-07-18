@@ -1,8 +1,6 @@
-"use strict";
 /*
 Question 10: Adding Comments: Choose two of the programs you’ve written, and add at least one comment to each. If the programs are straightforward at this point, just add your name and the current date at the top of each program file. Then, write one sentence describing what the program does.
 */
-Object.defineProperty(exports, "__esModule", { value: true });
 //  Program1
 // (comment) here we are writing our favourite number
 //declaring variable here
@@ -33,3 +31,4 @@ Question 12: Greetings: Use the array from Exercise 11. Instead of just printing
 */
 let my_friends = ["Ameen Alam", "Hamzah Syed", "Asharib Ali"];
 friends.forEach(Element => { console.log("Salaam " + Element); });
+export {};

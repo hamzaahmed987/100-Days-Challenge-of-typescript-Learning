@@ -1,8 +1,6 @@
-"use strict";
 // /*
 // Question 58: Average Score Calculator: Write a simple program that can take lots of scores and find their average.
 // */
-Object.defineProperty(exports, "__esModule", { value: true });
 // function avgScore(...scores:number[]): number {
 //     let total = scores.reduce((sum,scores) => sum + scores, 0);
 //     return total/scores.length;
@@ -31,3 +29,4 @@ let userProfile = (function () {
     };
 })();
 userProfile.displayInfo();
+export {};

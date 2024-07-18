@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 /*
 Question 118: Write a loop that logs numbers from 1 to 10 to the console.
 */
@@ -29,3 +27,4 @@ const favoriteMovies = [
 for (const movie of favoriteMovies) {
     console.log(movie); // Logs each movie name
 }
+export {};

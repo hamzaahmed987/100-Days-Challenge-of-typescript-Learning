@@ -1,4 +1,3 @@
-"use strict";
 // /*
 // Question 121: Implement a for loop that counts from 1 to 10 but skips number 5 using the continue statement.
 // */
@@ -8,7 +7,6 @@
 //     }
 //     console.log(i);
 //   }
-Object.defineProperty(exports, "__esModule", { value: true });
 // /*
 // Question 122: Use a while loop to count down from 10 to 1 and breaks the loop when it reaches 5
 // */
@@ -35,3 +33,4 @@ function logUntilVowel(str) {
     }
 }
 logUntilVowel("iouy");
+export {};

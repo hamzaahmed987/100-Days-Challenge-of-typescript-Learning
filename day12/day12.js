@@ -1,4 +1,3 @@
-"use strict";
 // /*
 // Question 34: Pizzas: Share your favorite pizzas and express your love for them.
 // */
@@ -7,7 +6,6 @@
 //     console.log(`${pizza}, your pizza is really good`)
 // })
 // console.log("I really like your pizza");
-Object.defineProperty(exports, "__esModule", { value: true });
 // /*
 // Question 35: Animals: Highlight animals with a common trait.
 // */
@@ -23,3 +21,4 @@ let tshirt = function (size, color, message) {
     console.log(`Your T-shirt size is ${size}, color is ${color} and message printed is ${message}`);
 };
 tshirt("medium", "black", "First, solve the problem.");
+export {};

@@ -1,8 +1,6 @@
-"use strict";
 /*
 Question 16: More Guests: You've found a bigger dinner table, so there's room for more guests.
 */
-Object.defineProperty(exports, "__esModule", { value: true });
 // let guests : string[] = ["Hamza","Ameen","Danial"];
 // console.log("I found big dinner table");
 // //adding more mehmaan
@@ -45,3 +43,4 @@ places.sort();
 console.log("original order", places);
 places.reverse();
 console.log("Reverse Alphabetical order:", places);
+export {};

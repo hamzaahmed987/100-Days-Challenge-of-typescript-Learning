@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 /*
 Question 100: Use the JavaScript Math object to find the square root of 144.
 */
@@ -17,3 +15,4 @@ Question 102: Calculate and log the absolute difference between the number -5 an
 */
 const difference = Math.abs(-5 - 5);
 console.log(difference);
+export {};

@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "\"# 100-Days-Challenge-of-typescript-Learning\"",
   "main": "day1.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

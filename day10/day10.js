@@ -1,8 +1,7 @@
-"use strict";
 // /*
 // Question 28: Stages of Life: Determine a person’s life stage with an if-else chain.
 // */
-Object.defineProperty(exports, "__esModule", { value: true });
+export {};
 // let age: number = 17;
 // if (age <= 2) {
 //     console.log("The person is a baby");

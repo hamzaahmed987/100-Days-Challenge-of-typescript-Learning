@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 /*
 Question 43: Unchanged Magicians: Preserve the original magician names while creating a new "great" list.
 */
@@ -27,3 +25,4 @@ const car = {
     mileage: 15000,
 };
 console.log(car);
+export {};

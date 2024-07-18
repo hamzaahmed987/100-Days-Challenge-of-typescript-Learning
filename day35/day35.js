@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 /*
 Question 103: Write a function that returns a random boolean value, true or false.
 */
@@ -22,3 +20,4 @@ function rollDice() {
     return Math.floor(Math.random() * 6) + 1;
 }
 console.log(rollDice());
+export {};

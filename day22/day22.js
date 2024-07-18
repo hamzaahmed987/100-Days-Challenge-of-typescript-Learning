@@ -1,11 +1,9 @@
-"use strict";
 // /*
 // Question 64: Combine Strings and Numbers: Write a function that merges a piece of text with a number. For example, if provided with "Age: " and 30, it should give back "Age: 30".
 // */
 // function stringAndNumber(text: string, number: number): string {
 //     return text + number;
 // }
-Object.defineProperty(exports, "__esModule", { value: true });
 // console.log(stringAndNumber("Age: ", 30));
 // /*
 // Question 65: Determine the Reminder: Make a function that gets two numbers and shows the leftover from dividing them using the % sign. For example, remainder(5, 2) should give 1.
@@ -28,3 +26,4 @@ console.log(checkBothTrue(false, false));
 console.log(checkBothTrue(false, false));
 console.log(checkBothTrue(1 < 2, 2 > 3));
 console.log(checkBothTrue(1 > 0, 1 > 0));
+export {};

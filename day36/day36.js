@@ -1,8 +1,6 @@
-"use strict";
 /*
 Question 106: Determine if a given year is a leap year using comparison operators.
 */
-Object.defineProperty(exports, "__esModule", { value: true });
 function isLeapYear(year) {
     return (year % 4 === 0 && year % 100 !== 0) || year % 400 === 0;
 }
@@ -16,6 +14,7 @@ function isDivisibleByTwoAndThree(number) {
 }
 console.log(isDivisibleByTwoAndThree(12));
 console.log(isDivisibleByTwoAndThree(14));
+export {};
 // /*
 // Question 108: Compare two strings to check if they are identical, ignoring case sensitivity.
 // */
