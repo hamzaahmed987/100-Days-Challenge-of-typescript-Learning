@@ -1,7 +1,5 @@
 
-/************************
- * CLASS STATIC MEMBERS *
- ************************/
+ //========> CLASS STATIC MEMBERS <=======\\
 
 class ProductStaticMembers {
     // 'private' property

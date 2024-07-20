@@ -1,7 +1,6 @@
 
-/***************************
- * CLASS ACCESS MODIFIERS: *
- ***************************/
+
+ //========> CLASS ACCESS MODIFIERS <=======\\
 
 class MyClassPublic {
     public name: string;

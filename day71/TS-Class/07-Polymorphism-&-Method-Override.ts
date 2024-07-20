@@ -1,7 +1,5 @@
 
-/**********************************
- * POLYMORPHISM & METHOD OVERRIDE *
- **********************************/
+ //========> POLYMORPHISM & METHOD OVERRIDE <=======\\
 
 // Define an abstract class
 abstract class AbstractEntity {

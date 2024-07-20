@@ -1,7 +1,6 @@
 
-/*****************************
- * CLASS IMPLEMENT INTERFACE *
- *****************************/
+
+ //========> CLASS IMPLEMENT INTERFACE <=======\\
 
 class ProductImplementInterface {
     // 'private' property

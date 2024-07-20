@@ -1,7 +1,5 @@
 
-/********************************
- * ABSTRACT CLASSES AND MEMBERS *
- ********************************/
+ //========> ABSTRACT CLASSES AND MEMBERS <=======\\
 
 abstract class AbstractItem {
     private static nextId: number = 1;

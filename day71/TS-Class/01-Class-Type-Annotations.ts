@@ -1,7 +1,7 @@
 
-/**************************
- * CLASS TYPE ANNOTATIONS *
- **************************/
+
+ //========> CLASS TYPE ANNOTATIONS <=======\\
+
 
 class Product {
     // Property type annotations

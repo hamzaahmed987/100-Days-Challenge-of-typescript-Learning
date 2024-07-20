@@ -1,7 +1,5 @@
 
-/*******************
- * CLASS ACCESSORS *
- *******************/
+ //========> CLASS ACCESSORS <=======\\
 
 class ProductExAccessors {
     // 'private' property
